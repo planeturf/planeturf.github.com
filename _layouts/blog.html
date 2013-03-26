@@ -1,14 +1,22 @@
 <html>
   <head>
     <title>Planet Urf : {{ page.title }}</title>
+    <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="//use.typekit.net/fuq0zqc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
     <header>
-      <h1 class="header">Planet Urf</h1>
-      <h2 class="strapline">Blogging a dead horse</h2>
+      <section class="header-contents">
+        <h1>Planet Urf</h1>
+        <span class="strapline">... blogging a dead horse</span>
+      </section>
     </header>
 
-    {{ content }}
+    <section>
+      {{ content }}
+    </section>
+
   </body>
 </html>
