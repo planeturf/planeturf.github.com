@@ -1,10 +1,8 @@
 ---
 layout: blog
-title:  Hello, World!
+title:  Home
 ---
 
-# Hello World
+# Posts
 
-Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero.
-
-Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Duis feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convallis avarius vitae, facilisis eget magna.
+(26th March - Mob Programming)[2013-03-26-mob-programming]
