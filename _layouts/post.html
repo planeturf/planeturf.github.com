@@ -1,0 +1,16 @@
+---
+layout: blog
+---
+
+<article>
+
+  <header>
+    {{ page.title }}
+    <time datetime="{{ page.date }}" pubdate>
+      {{ page.date | date: '%d %b %y' }}
+    </time>
+  </header>
+
+  {{ content }}
+
+</article>

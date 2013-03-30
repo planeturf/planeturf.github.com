@@ -1,18 +1,69 @@
-header {
-  background-color: #778A5F;
-  color: white;
-  padding: 0.4em;
-  margin-bottom: 1em;
+body {
+  font-family: 'Habibi', serif;
 }
 
-header h1 {
+header[role="masthead"] {
+  font-family: 'Henny Penny', cursive;
+  background-color: #778A5F;
+  color: white;
+  padding-top: 1.6em;
+  padding-bottom: 0.4em;
+  margin-bottom: 2em;
+}
+
+header[role="masthead"] h1 {
   display: inline-block;
   margin-right: 0.2em;
-  font-size: 2.4em;
+  font-size: 3.4em;
   font-weight: bold;
+}
+
+header[role="masthead"] .strapline {
+  font-size: 1.4em;
 }
 
 section {
   width: 760px;
   margin: auto;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+ul[role="recent-posts"] {
+  font-size: 1.2em;
+}
+
+article { line-height: 1.2em; }
+
+article header {
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+article header time {
+  font-size: 0.6em;
+  float: right;
+  margin-top: 0.2em;
+}
+
+article p {
+  margin-top: 1.2em;
+}
+
+article ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-bottom: 1em;
+  margin-top: 0.4em;
+}
+
+article ul li {
+  padding-left: 2em;
+  text-indent: -1em;
+  margin-bottom: 0.4em;
 }
