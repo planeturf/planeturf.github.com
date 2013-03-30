@@ -4,6 +4,16 @@ layout: blog
 
 <article>
 
+  <nav>
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}" class="previous">&lt;&lt;&nbsp;&nbsp; {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next %}
+      <a href="{{ page.next.url }}" class="next">{{ page.next.title }} &nbsp;&nbsp;&gt;&gt;</a>
+    {% endif %}
+    <a href="/index.html" class='icon home'></a>
+  </nav>
+
   <header>
     {{ page.title }}
     <time datetime="{{ page.date }}" pubdate>

@@ -1,14 +1,14 @@
 body {
-  font-family: 'Habibi', serif;
+  font-family: 'Noto Serif', serif;
 }
 
 header[role="masthead"] {
-  font-family: 'Henny Penny', cursive;
+  font-family: 'Special Elite', serif;
   background-color: #778A5F;
   color: white;
   padding-top: 1.6em;
   padding-bottom: 0.4em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 header[role="masthead"] h1 {
@@ -33,22 +33,49 @@ h2 {
   margin-bottom: 1em;
 }
 
-ul[role="recent-posts"] {
-  font-size: 1.2em;
-}
+a { color: #778a5f; }
+
+ul[role="recent-posts"] { font-size: 1.2em; }
+ul[role="recent-posts"] li { margin-bottom: 0.6em; }
 
 article { line-height: 1.2em; }
 
+article nav { margin-bottom: 1.5em; }
+
+article nav a {
+  display: block;
+  padding-top: 5px;
+  text-decoration: none;
+  color: #778a5f;
+}
+
+article nav a:hover { text-decoration: underline; }
+
+article nav a.previous { float: left; }
+
+article nav a.next { float: right; }
+
+article nav a.home {
+  padding-top: 0px;
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  background-image: url('/images/icons.png');
+  background-position: -432px -178px;
+}
+
 article header {
+  clear: left;
   font-weight: bold;
   font-size: 1.4em;
   margin-bottom: 1em;
+  /* border-bottom: 1px solid #ccc; */
 }
 
 article header time {
   font-size: 0.6em;
   float: right;
-  margin-top: 0.2em;
+  margin-top: 0.3em;
 }
 
 article p {
