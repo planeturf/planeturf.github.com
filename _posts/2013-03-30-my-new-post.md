@@ -16,3 +16,5 @@ What about an image?
 <img src="http://cdn.cutestpaw.com/wp-content/uploads/2011/11/cute-puppy-l1.jpg" alt="a sample image" />
 
 [This is a link](http:www.google.com)
+
+Hmm loses changes when editing in zen mode on iPad by the looks of things :(
