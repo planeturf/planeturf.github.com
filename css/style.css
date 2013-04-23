@@ -1,5 +1,22 @@
+html, body {height: 100%;}
+
 body {
   font-family: 'Noto Serif', serif;
+}
+
+.wrapper {min-height: 100%;}
+
+.main {
+  overflow:auto;
+  padding-bottom: 50px;
+}
+
+footer {
+  position: relative;
+  margin-top: -30px;
+  height: 30px;
+  clear:both;
+  text-align:center;
 }
 
 header[role="masthead"] {
@@ -94,3 +111,4 @@ article ul li {
   text-indent: -1em;
   margin-bottom: 0.4em;
 }
+
